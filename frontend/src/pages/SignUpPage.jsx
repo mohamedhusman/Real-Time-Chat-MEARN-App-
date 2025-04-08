@@ -60,10 +60,7 @@ const SignUpPage = () => {
           {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="form-control">
-              <label
-                htmlFor="full-name"
-                className="block text-sm font-medium text-gray-700 mb-1"
-              >
+              <label htmlFor="full-name" className="label">
                 Full Name
               </label>
               <div className="relative">
