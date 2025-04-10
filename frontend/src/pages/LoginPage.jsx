@@ -48,7 +48,7 @@ const LoginPage = () => {
                 </div>
                 <input
                   type="email"
-                  className={` w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-700 placeholder-gray-500`}
+                  className={` w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md `}
                   placeholder="you@example.com"
                   value={formData.email}
                   onChange={(e) =>
@@ -68,7 +68,7 @@ const LoginPage = () => {
                 </div>
                 <input
                   type={showPassword ? "text" : "password"}
-                  className={` w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-700 placeholder-gray-500`}
+                  className={` w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md `}
                   placeholder="********"
                   value={formData.password}
                   onChange={(e) =>

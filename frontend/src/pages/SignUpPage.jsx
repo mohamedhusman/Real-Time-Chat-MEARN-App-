@@ -71,7 +71,7 @@ const SignUpPage = () => {
                   type="text"
                   id="full-name"
                   name="full-name"
-                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-700"
+                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md"
                   placeholder="John Doe"
                   value={formData.fullName}
                   onChange={(e) =>
@@ -91,7 +91,7 @@ const SignUpPage = () => {
                 </div>
                 <input
                   type="email"
-                  className={` w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-700`}
+                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md"
                   placeholder="you@example.com"
                   value={formData.email}
                   onChange={(e) =>
